@@ -1,0 +1,278 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b9571579-3486-11f0-8a2a-8c1645601e94",
+    "deck_config_uuid": "88441d8a-10db-11ec-bf75-58961ddcd04c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": false,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "88441d8a-10db-11ec-bf75-58961ddcd04c",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [],
+            "fsrsParams5": [],
+            "fsrsWeights": [
+                1.6956398,
+                2.4229338,
+                4.1386,
+                5.9137278,
+                4.964587,
+                1.0416913,
+                0.7504382,
+                0.21554403,
+                1.8089473,
+                0.0,
+                1.1965435,
+                2.2950158,
+                0.01,
+                0.50014675,
+                1.6304538,
+                0.21900001,
+                2.8237
+            ],
+            "ignoreRevlogsBeforeDate": "1970-01-01",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 6,
+                "minInt": 1,
+                "mult": 0.5
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1310,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 25,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "reminder": {
+                "enabled": true,
+                "time": [
+                    12,
+                    0
+                ]
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.91,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "_19168.ttf",
+        "_Caveat-Regular.ttf",
+        "_Playtime.otf",
+        "_RobotoCondensed-Regular.ttf",
+        "_anki_learn.png",
+        "_comic.ttf"
+    ],
+    "name": "Anki Templates",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b0d27eef-3486-11f0-8b73-8c1645601e94",
+            "css": ".body{\nmargin:0px !important;\n}\n\n.debug{\ndisplay:block;\n//border: 0.05em solid white;\nposition:fixed;\ntop:0;\nright:0;\nbottom:0;\nleft:0;\nwidth:100%;\nheight:100%;\nz-index: 4;\n}\n\n\n\n#qa{\n\tmargin-top: 0px !important;\n}\n\n.definition *{\nmargin:0px;\n}\n\n.definition{\npadding-top:1.5em!important;\n}\n\n#textContainer{\nposition:relative;\n}\n\n#textIndicator {\n  position: absolute;\n  top: 0.2em;\n  right: 0.2em;\n  z-index: 1;\n}\n\n\n@media(max-width: 768px) and (orientation: portrait), (orientation: portrait){\n\n.definition{\nbackground-color:  var(--ex-color);\npadding:0.2em;\nwidth:100%;\nmargin:0.05em;\n\n}\n\n\n.me {\ndisplay: block; visibility: unset;\nwidth:100%;\n}\n\n.arrow{\ndisplay:none;\nvisibility:hidden;\n}\n\n\n .container_2{\nmargin-top: 0.3em !important;\nwidth:100%;\n//height:95vmin;\ndisplay:flex;\nflex-flow:column;\nalign-items:center;\nflex-wrap:no-wrap;\njustify-content:flex-start;\nmin-height:95vh;\n}\n\n .word{\ncolor:var(--word-main-color);\nbackground-color:var(--bold-main-color);\npadding:0.2em;\nfont-family:arial;\nfont-size:0.8em;\nborder: 0.2em solid var(--faded-main-color);\n\n}\n\n .translation {\n    font-family: Caveat;\n    color: var(--second-main-color);\n  order:4;\n    background-color: var(--main-color);\n    font-size: 0.6em;\n    max-width: 100%;\n  width: -webkit-fill-available;\n    overflow: hidden;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.em;\n    word-spacing: 3px;\n    whitespace: pre-wrap;\n    white-space: pre-wrap;\n    word-break: keep-all;\n    padding-right: 0.4em;\n  border: 0.2em solid var(--main-color);\n  text-align:left;\n}\n\n .card,  .card .nightMode {\n font-family: Caveat;\n font-size: 10vmin;\n text-align: center;\n color: black;\n background-color: rgb(54,49,94)!important;\nbackground:url('_anki_learn.png') no-repeat;\nbackground-size:100%;\nbackground-attachment:fixed;\n}\n\n\n .btn_s {\n border-radius:0.5em !important;\n font-family: arial;\n  font-size: 0.7em !important;\n  //flex:0.7;\n  margin:1vmin;\n  background-image: linear-gradient(0deg, var(--main-color) 0%, var(--main-color) 100%) !important;\n color:var(--word-main-color) !important;\n\n  box-shadow:none !important;\nborder: 0.2em solid var(--faded-main-color) !important;\nwidth: -webkit-fill-available;\nmax-width:100%;\nmargin: 0 !important;\n}\n\n\n}\n\n\ndiv, details{\nborder-radius:0.5em;\n}\n\na{\ndisplay:none;\n}\n\n@media(min-width: 768px) and (orientation: landscape), (orientation: landscape){\n\n.me {\ndisplay: flex;visibility: unset;flex-flow: row;align-items: center;justify-content: space-evenly;width: 75%;max-width: 75%;height: 70%; max-height:70%;\n}\n\n.definition{\nbackground-color:  var(--ex-color);\npadding:0.2em;\n}\n\n .body {\nmargin:0px !important;\n}\n\n .translation::-webkit-scrollbar{\n  width: 0.5em;\n}\n\n/* Track */\n::-webkit-scrollbar-track {\n  background:  var(--main-color); \n}\n\n\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #fff; \n  height:0.8em;\n\nborder-radius:0.5em;\n}\n\n\n/* Handle on hover */\n::-webkit-scrollbar-thumb:hover {\n  background: var(--word-main-color); \n\n}\n\n\n .container_2{\n\nwidth:100%;\nheight:95vmin;\ndisplay:flex;\nflex-flow:column;\nalign-items:center;\nflex-wrap:wrap;\njustify-content:space-evenly;\nborder:2px solid white;\nbackground: url(\"_anki_learn.png\");\n  background-size: 100%;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n\n\n .word{\n\ncolor:var(--word-main-color);\n//flex:1;\nbackground-color:var(--bold-main-color);\npadding:0.2em;\nfont-family:arial;\nfont-size:0.8em;\nborder: 0.2em solid var(--faded-main-color);\n}\nc{\n//font-size:0.9em;\nmargin:0;\n}\n .translation {\nz-index:11;\n    font-family: Caveat;\n    color: var(--second-main-color);\n    background-color: var(--light-main-color);\n    font-size: 0.3em;\n    max-width: 90%;\n  width:90%;\n\t\tmin-height: 100%;\n    max-height: 100%;\n    overflow-y: scroll;\n\t\t\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    padding-right: 0.1em;\n    word-spacing: 3px;\n    display: block;\n    white-space: pre-wrap;\n    word-break: keep-all;\n  border: 0.2em solid var(--faded-main-color);\n  text-align:left;\n}\n\n .card {\n font-family: Caveat;\n font-size: 13vmin;\n text-align: center;\n color: black;\n //background-color: white;\n\n}\n\n\n .btn_s, .arrow{\n\nborder-radius:0.5em !important;\n font-family: arial;\n  font-size: 0.6em !important;\n  //flex:0.7;\n  margin:1vmin;\n  background-image: linear-gradient(0deg, var(--main-color) 0%, var(--main-color) 100%) !important;\n color:var(--word-main-color) !important;\nmax-width:50%;\nmax-height:20%;\n  box-shadow:none !important;\nborder: 0.2em solid var(--faded-main-color) !important;\noverflow: hidden;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    word-spacing: 3px;\n    display: block;\n    whitespace: pre-wrap;\n    white-space: pre-wrap;\n    word-break: keep-all;\n}\n.arrow{\nborder: 0.1em solid var(--faded-main-color) !important;\nmargin:0;\nborder-radius:0.1em!important;\nmax-height:50%;\nheight:2em;\ndisplay:flex;\nalign-items:center;\n}\n.arrow:hover{\nbackground-image: linear-gradient(0deg, var(--light-main-color) 0%, var(--light-main-color) 100%) !important;\n}\n\n}\n\n\n\n\n\n\n\n\nbody, html{\n//overflow-x: hidden !important;\nmax-width:100%;\n}\n\n\n@property --floorr2{\n  syntax: '<integer>';\n  initial-value: 0;\n  inherits: false; \n}\n\n:root{\n--main-color: rgba(var(--red1), var(--green1), var(--blue1), 0.9);\n--faded-main-color: rgba(var(--red1), var(--green1), var(--blue1), 0.7);\n--bold-main-color: rgba(var(--red1), var(--green1), var(--blue1), 0.95);\n--light-main-color:  rgba(var(--red1), var(--green1), var(--blue1), 0.8);\n--solid-main-color: rgb(var(--red1), var(--green1), var(--blue1));\n\n--second-main-color:#fff;\n\n--word-main-color: rgb(159, 128, 255);\n--word-main-color-trans: rgba(159, 128, 255,0.2);\n--def-color: #3B2E69;\n--tran-color: #4F3F87;\n--ex-color: #5F4C9F;\n--red1:30;\n--green1:20;\n--blue1:60;\n--rotation:100deg;\n}\n\n@font-face {\n  font-family: Caveat;\n  src: url(\"_RobotoCondensed-Regular.ttf\");\n  \n}\n\n@font-face {\n  font-family: С;\n  src: url(\"_Caveat-Regular.ttf\");\n  \n}\n\n@font-face {\n  font-family: Caveat;\n  src: url(\"_19168.ttf\");\n  unicode-range:U+0400-04FF;\n}\n\n@font-face {\n  font-family: Playtime;\n  src: url(\"_Playtime.otf\");\n}\n\n@font-face {\n  font-family: Playtime;\n  src: url(\"_Caveat-Regular.ttf\");\n  unicode-range:U+0400-04FF;\n}\nbody::-webkit-scrollbar{display:none;}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Liberation Sans",
+                    "id": null,
+                    "media": [],
+                    "name": "Word",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Definitions",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Anki Learn words",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<script>\n\n\nconsole.log(\"Back render!\");\ndocument.getElementById(\"me\").style.display=\"flex\";\ndocument.getElementById(\"me\").style.visibility=\"unset\";\n\n\nvar currentText = 0;\nvar textElements = Array.from(document.getElementById('textContainer').querySelectorAll('.definition'));\nvar totalTexts = textElements.length;\nvar isTouchScrolling = false;\n\nfunction iOS() {\n  return [\n    'iPad Simulator',\n    'iPhone Simulator',\n    'iPod Simulator',\n    'iPad',\n    'iPhone',\n    'iPod'\n  ].includes(navigator.platform)\n  // iPad on iOS 13 detection\n  || (navigator.userAgent.includes(\"Mac\") && \"ontouchend\" in document)\n}\n\n// Function to update the displayed text and indicator\nfunction updateText() {\n\tconsole.log(\"updating\");\n  textElements.forEach(function (element, index) {\n    if (index === currentText) {\n      element.style.display = 'block';\n    } else {\n      element.style.display = 'none';\n    }\n  });\n\n  // Update the indicator\n  var indicator = document.getElementById('textIndicator');\n  indicator.textContent = '(' + (currentText + 1) + '/' + totalTexts + ')';\n}\n\n// Function to go to the previous text\nfunction goToPrevText() {\nconsole.log(\"prev\");\nconsole.log(currentText);\n  currentText = (currentText - 1 + totalTexts) % totalTexts;\n  updateText();\n}\n\n// Function to go to the next text\nfunction goToNextText() {\nconsole.log(\"next\");\nconsole.log(currentText);\n\n  currentText = (currentText + 1) % totalTexts;\n  updateText();\n}\n\nfunction cleanup() {\n  document.getElementById(\"events\").removeEventListener('click', handleCardClick);\n  document.getElementById(\"events\").removeEventListener('touchstart', handleTouchStart);\n  document.getElementById(\"events\").removeEventListener('touchend', handleTouchEnd);\n}\n\n// Event listener for mouse click\nfunction handleCardClick(e) {\n  var target = e.target;\n  var windowWidth = window.innerWidth;\n  var clickX = e.clientX;\n\n  // Check if the click occurred outside the textContainer\n  if (!isTouchScrolling) {\n    if (clickX < windowWidth / 2) {\n      goToPrevText(); // Clicked on the left side of the page and not during touch scroll\n    } else {\n      goToNextText(); // Clicked on the right side of the page and not during touch scroll\n    }\n  }\n}\n\n\n// Event listener for touchstart\nfunction handleTouchStart() {\n  isTouchScrolling = true;\n}\n\n// Event listener for touchend\nfunction handleTouchEnd() {\n  isTouchScrolling = false;\n}\n\n// Attach event listeners to the card\nfunction attachEventListeners() {\nconsole.log(\"adding listeners\");\n\nif (0){\ndocument.getElementById(\"events\").addEventListener('click touchstart', handleCardClick);\n  document.getElementById(\"events\").addEventListener('tap', handleCardClick);\n}else{\ndocument.getElementById(\"events\").addEventListener('click', handleCardClick);\n};\n  \n\n  document.getElementById(\"events\").addEventListener('touchstart', handleTouchStart);\n  document.getElementById(\"events\").addEventListener('touchend', handleTouchEnd);\n}\n\n// Initial setup\n//cleanup(); // Clean up any previous event listeners\nattachEventListeners(); // Attach event listeners to the current card\nupdateText(); // Initial text update\n\n</script>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Remember Concept",
+                    "ord": 0,
+                    "qfmt": "<div class=debug1 id=events1></div>\n<div class=container_2 id=events>\n\t<button type=\"button\" class=btn_s id=word>{{Word}}</button>\n\t<div class=\"me\" id=\"me\" style=\"display:none; visibility:hidden\"><span id=\"prev\" class=\"arrow\">&lt;</span><div class=\"translation text-block\" id=\"textContainer\"><div id=\"textIndicator\"></div>{{Definitions}}</div><span id=\"next\" class=\"arrow\">&gt;</span>\n\t</div>\n</div>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b95800f3-3486-11f0-8786-8c1645601e94",
+            "css": ".body{\nmargin:0px !important;\n\n}\n\n@media(max-width: 768px) and (orientation: portrait), (orientation: portrait){\n .container_2{\nwidth:100%;\n//height:95vmin;\ndisplay:flex;\nflex-flow:column;\nalign-items:center;\nflex-wrap:no-wrap;\njustify-content:space-evenly;\n\n}\n\n .ex {\n    font-family: Comic;\n    color: #fff;\n    background-color: var(--main-color);\n    font-size: 0.45em;\n    max-width: 100%;\n      width: -webkit-fill-available;\n    //max-height: 20%;\n    overflow: hidden;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    word-spacing: 3px;\n    whitespace: pre-wrap;\n    white-space: pre-wrap;\n    word-break: keep-all;\n    padding-right: 0.4em;\n  border: 0.2em solid var(--main-color);\n}\n .word{\ncolor:var(--word-main-color);\n//flex:1;\nbackground-color:var(--bold-main-color);\npadding:0.2em;\nfont-family:arial;\nfont-size:0.8em;\nborder: 0.2em solid var(--faded-main-color);\n\n}\n\n .translation {\n    font-family: Caveat;\n    color: var(--second-main-color);\n  order:4;\n    background-color: var(--main-color);\n    font-size: 0.6em;\n    max-width: 100%;\n  width: -webkit-fill-available;\n    overflow: hidden;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    word-spacing: 3px;\n    whitespace: pre-wrap;\n    white-space: pre-wrap;\n    word-break: keep-all;\n    padding-right: 0.4em;\n  border: 0.2em solid var(--main-color);\n  text-align:left !important;\n}\n\n .card,  .card .nightMode {\n font-family: Caveat;\n font-size: 10vmin;\n text-align: center;\n color: black;\n background-color: rgb(54,49,94)!important;\nbackground:url('_anki_learn.png') no-repeat;\nbackground-size:100%;\nbackground-attachment:fixed;\n}\n\n\n .btn_s {\n border-radius:0.5em !important;\n font-family: arial;\n  font-size: 0.7em !important;\n  //flex:0.7;\n  margin:1vmin;\n  background-image: linear-gradient(0deg, var(--main-color) 0%, var(--main-color) 100%) !important;\n color:var(--word-main-color) !important;\n\n  box-shadow:none !important;\nborder: 0.2em solid var(--faded-main-color) !important;\nwidth: -webkit-fill-available;\nmax-width:100%;\nmargin: 0 !important;\n}\n\n  .img, img, div>img {\n\tborder-radius:0.5em;\n    max-width: 100% !important;\n    //margin-left: 10%;\n    /* max-height: 100vmin; */\n    /* height: auto; */\n    /* object-fit: contain; */\n    /* max-width: 80%; */\n    /* object-fit: contain; */\n    display: block !important;\n    margin-left: auto;\n\tmargin-right: auto;\n}\n\n\n .image_style{\nbackground-color: var(--faded-main-color);\nheight:auto;\nborder: 0.1em solid var(--faded-main-color);\n}\n\n .line_break{\n//border: 2px solid;\nheight:0%;\n}\n\n\n\n\n\n}\n\n\ndiv, details{\nborder-radius:0.5em;\n}\n\na{\ndisplay:none;\n}\n\n\n\n\n\n\n.exs {\nmargin-top:0.625em;\n}\n\n@media(min-width: 768px) and (orientation: landscape), (orientation: landscape){\n\n div>details {\nbackground-color: var(--def-color);\ndisplay:block;\n//border-radius:0.5em;\n}\n\n .body {\nmargin:0px !important;\n}\n .container_2{\nwidth:100%;\nheight:95vmin;\ndisplay:flex;\nflex-flow:column;\nalign-items:center;\nflex-wrap:wrap;\njustify-content:center;\nborder:2px solid white;\nbackground: url(\"_anki_learn.png\");\n  background-size: 100%;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n\n .ex{\n    font-family: Comic;\n    color: #fff;\n    background-color: var(--main-color);\n    font-size: 0.2em;\n    max-width: 45%;\n  width:50%;\n    //max-height: 20%;\n    overflow: hidden;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    word-spacing: 3px;\n    display: block;\n    whitespace: pre-wrap;\n    white-space: pre-wrap;\n    word-break: keep-all;\n    padding-right: 0.4em;\n  border: 0.2em solid var(--faded-main-color);\n\tmargin:0.1em;\n}\n .word{\n\ncolor:var(--word-main-color);\n//flex:1;\nbackground-color:var(--bold-main-color);\npadding:0.2em;\nfont-family:arial;\nfont-size:0.8em;\nborder: 0.2em solid var(--faded-main-color);\n}\nc{\n//font-size:0.9em;\nmargin:0;\n}\n .translation {\n    font-family: Caveat;\n    color: var(--second-main-color);\n    background-color: var(--light-main-color);\n    font-size: 0.3em;\n    max-width: 50%;\n  width:50%;\n    max-height: 60%;\n    overflow: scroll;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    padding-right: 0.1em;\n    word-spacing: 3px;\n    display: block;\n    white-space: pre-wrap;\n    word-break: keep-all;\n  border: 0.2em solid var(--faded-main-color);\n  text-align:left;\n}\n\n .card {\n font-family: Caveat;\n font-size: 13vmin;\n text-align: center;\n color: black;\n //background-color: white;\n\n}\n\n\n .btn_s {\n\nborder-radius:0.5em !important;\n font-family: arial;\n  font-size: 0.6em !important;\n  //flex:0.7;\n  margin:1vmin;\n  background-image: linear-gradient(0deg, var(--main-color) 0%, var(--main-color) 100%) !important;\n color:var(--word-main-color) !important;\nmax-width:50%;\nmax-height:20%;\n  box-shadow:none !important;\nborder: 0.2em solid var(--faded-main-color) !important;\noverflow: hidden;\n    text-overflow: elipsis;\n    /* scroll-behavior: smooth !important; */\n    padding: 0.1em;\n    word-spacing: 3px;\n    display: block;\n    whitespace: pre-wrap;\n    white-space: pre-wrap;\n    word-break: keep-all;\n}\n\n .img, img{\nwidth: 100%;\nmargin-left:auto;\nmargin-right:auto;\nborder-radius:0.25em;\ndisplay: block !important;\n}\n\n .line_break{\n//border: 2px solid;\nheight:100%;\n}\n\n .image_style{\nbackground-color: var(--faded-main-color);\nmax-width:50%;\nheight:auto;\nborder: 0.1em solid var(--faded-main-color);\n}\n\n}\n\n\n\nbody, html{\n//overflow-x: hidden !important;\nmax-width:100%;\n}\n\n\n@property --floorr2{\n  syntax: '<integer>';\n  initial-value: 0;\n  inherits: false; \n}\n\n:root{\n--main-color: rgba(var(--red1), var(--green1), var(--blue1), 0.9);\n--faded-main-color: rgba(var(--red1), var(--green1), var(--blue1), 0.7);\n--bold-main-color: rgba(var(--red1), var(--green1), var(--blue1), 0.95);\n--light-main-color:  rgba(var(--red1), var(--green1), var(--blue1), 0.8);\n--solid-main-color: rgb(var(--red1), var(--green1), var(--blue1));\n\n--second-main-color:#a2e619;\n\n--word-main-color: rgb(159, 128, 255);\n--word-main-color-trans: rgba(159, 128, 255,0.2);\n--def-color: #3B2E69;\n--tran-color: #4F3F87;\n--ex-color: #5F4C9F;\n--red1:30;\n--green1:20;\n--blue1:60;\n--rotation:100deg;\n}\n\n@font-face {\n  font-family: Caveat;\n  src: url(\"_RobotoCondensed-Regular.ttf\");\n  \n}\n\n@font-face {\n  font-family: С;\n  src: url(\"_Caveat-Regular.ttf\");\n  \n}\n\n@font-face {\n  font-family: Caveat;\n  src: url(\"_19168.ttf\");\n  unicode-range:U+0400-04FF;\n}\n\n@font-face {\n  font-family: Playtime;\n  src: url(\"_Playtime.otf\");\n}\n\n@font-face {\n  font-family: Playtime;\n  src: url(\"_Caveat-Regular.ttf\");\n  unicode-range:U+0400-04FF;\n}\n\n@font-face {\n  font-family: Comic;\n  src: url(\"_comic.ttf\");\n}\n\n\n\n\n\nbody::-webkit-scrollbar{display:none;}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Liberation Sans",
+                    "id": null,
+                    "name": "Question",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Answer",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Anki Learn sentences",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<script>\ndocument.getElementById(\"exNL\").style.display=\"block\";\n</script>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Remember Concept",
+                    "ord": 0,
+                    "qfmt": "<div class=container_2 id=container_2>\n\n\t\t<div class=\"ex\" id=exTL>{{Question}}</div>\n\t\t<div class=\"ex\" style=display:none id=exNL>{{Answer}}</div>\n</div>\n\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "test word",
+                "<div class=\"definition\">\n  Definition 1: this is a placeholder for a definition one\n</div><div class=\"definition\">\n  Definition 2: this is a placeholder for a definition two\n</div><div class=\"definition\">\n  Definition 3: this is a placeholder for a definition three\n</div>"
+            ],
+            "guid": "k$tmz2++O~",
+            "note_model_uuid": "b0d27eef-3486-11f0-8b73-8c1645601e94",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Test question sentence",
+                "Test answer sentence"
+            ],
+            "guid": "yD~FRd)86~",
+            "note_model_uuid": "b95800f3-3486-11f0-8786-8c1645601e94",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
